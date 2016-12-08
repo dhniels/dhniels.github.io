@@ -1,16 +1,17 @@
-dhniels.github.io
-====================
+# My portfolio
 
-## Hello world!
+My name is [Dave Nielsen](http://twitter.com/dhniels)
 
-This is my first try at github!
+* [Bastards Book of Regular Expressions](http://regex.bastardsbook.com/)  - A free ebook on how to use regular expressions for everyday informational purposes
 
-My Github user page is at: 
-https://github.com/dhniels/
+* [Eye Heart New York](http://tumblr.eyeheartnewyork.com) - A Tumblr of my New York photos
 
-My Github Pages repo can be found at:  
-https://github.com/dhniels/dhniels.github.io/
+* [I Heart NY Museums](http://iheartnymuseums.com/) - A really old interactive map showing open/free hours at local museums
 
-And, soon, you can see my customized homepage at:
+A picture of someone playing the didgeridoo
 
-http://dhniels.github.io/
+![alt text](http://i.imgur.com/2i35DTo.jpg)
+
+Here's video of that performance:
+
+<iframe width="640" height="360" src="//www.youtube.com/embed/dfCd2eQfueY?list=UUw7F4bJbtGwORQwMBxlGb6w" frameborder="0" allowfullscreen></iframe>
