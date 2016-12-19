@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="209px" height="209px" viewBox="0 0 209 209" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>web</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="31" y="31" width="147" height="147"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="147" height="147" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <circle id="path-3" cx="54" cy="54" r="29.5714286"></circle>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="59.1428571" height="59.1428571" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+        <polygon id="path-5" points="11.5714286 100.285714 0 50.1428571 23.1428571 50.1428571"></polygon>
+        <mask id="mask-6" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="23.1428571" height="50.1428571" fill="white">
+            <use xlink:href="#path-5"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="web">
+            <use id="Rectangle-7" stroke="#000000" mask="url(#mask-2)" stroke-width="40" fill="#FFFFFF" transform="translate(104.500000, 104.500000) rotate(-315.000000) translate(-104.500000, -104.500000) " xlink:href="#path-1"></use>
+            <g id="compass" transform="translate(51.000000, 51.000000)">
+                <polygon id="Triangle-4" fill="#000000" transform="translate(79.967241, 78.687682) rotate(130.000000) translate(-79.967241, -78.687682) " points="79.9672409 70.9234588 83.8243838 86.4519047 76.1100981 86.4519047"></polygon>
+                <polygon id="Triangle-4" fill="#000000" transform="translate(28.788975, 28.788975) rotate(-45.000000) translate(-28.788975, -28.788975) " points="28.7889751 21.0247522 32.646118 36.553198 24.9318323 36.553198"></polygon>
+                <polygon id="Triangle-3" fill="#000000" points="54 0 68.1428571 28.2857143 39.8571429 28.2857143"></polygon>
+                <polygon id="Triangle-3-Copy" fill="#000000" points="54 108 39.8571429 79.7142857 68.1428571 79.7142857"></polygon>
+                <polygon id="Triangle-3-Copy-2" fill="#000000" transform="translate(14.142857, 54.000000) rotate(-270.000000) translate(-14.142857, -54.000000) " points="14.1428571 68.1428571 0 39.8571429 28.2857143 39.8571429"></polygon>
+                <polygon id="Triangle-3-Copy-3" fill="#000000" transform="translate(93.857143, 54.000000) rotate(-90.000000) translate(-93.857143, -54.000000) " points="93.8571429 68.1428571 79.7142857 39.8571429 108 39.8571429"></polygon>
+                <use id="Oval-3" stroke="#000000" mask="url(#mask-4)" stroke-width="8" xlink:href="#path-3"></use>
+                <g id="arrow" transform="translate(54.590585, 54.283908) rotate(44.000000) translate(-54.590585, -54.283908) translate(42.590585, 3.783908)">
+                    <polygon id="Triangle-5" fill="#000000" points="11.5714286 -1.70530257e-13 23.1428571 50.1428571 4.26325641e-14 50.1428571"></polygon>
+                    <use id="Triangle-5-Copy" stroke="#000000" mask="url(#mask-6)" stroke-width="6" fill="#FFFFFF" xlink:href="#path-5"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

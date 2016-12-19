@@ -2,3 +2,12 @@
     font-family: "Neutra-Display";
     src: url('assets/fonts/NeutraDisp-Bold.otf'),
 }
+
+h1 {font-family: museo, serif; font-style: normal; font-weight: 700;}
+h2 {font-family: museo, serif; font-style: normal; font-weight: 700;}
+h3 {font-family: museo-sans, sans-serif; font-style: normal; font-weight: 500;}
+p {font-family: museo-sans, sans-serif; font-style: normal; font-weight: 300;}
+a {text-decoration: none;}
+
+nav ul {list-style-type: none;}
+nav ul img {width: 20px; height: 20px;}
