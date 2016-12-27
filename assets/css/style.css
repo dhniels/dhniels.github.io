@@ -1,7 +1,8 @@
 /*author: dave nielsen // please credit my work! */
+html, body {margin: 0; padding: 0;}
 
 h1 {font-family: museo, serif; font-style: normal; font-weight: 700;}
-h2 {font-family: museo, serif; font-style: normal; font-weight: 700;}
+h2 {font-family: museo, serif; font-style: normal; font-weight: 500;}
 h3 {font-family: museo-sans, sans-serif; font-style: normal; font-weight: 500;}
 p {font-family: museo-sans, sans-serif; font-style: normal; font-weight: 300;}
 a {font-family: museo-sans, sans-serif; font-style: normal; font-weight: 500; text-decoration: none;}
@@ -20,23 +21,6 @@ img {
   max-width: 100%;
 }
 
-.descriptor {
-  font-family: museo, serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 1.5em;
-  margin: 10px 0 0;
-  margin-left: 10px;
-}
-.descriptor + p {
-  font-family: museo, serif;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 0.9em;
-  line-height: 1.4;
-  margin: 10px;
-}
-
 #title {
   text-align: center;
   font-size: 5em;
@@ -44,7 +28,21 @@ img {
   text-transform: uppercase;
 }
 
+#qualities {display: inline;}
+#qualities h2:first-child {margin-top: -4px;}
+
+.section h2 {
+  font-size: 3em;
+  color: white;
+  background-color: black;
+  padding: 25px;
+}
+
+
 @media screen and (min-width: 1024px) {
+  #qualities {display: none;}
+  #workhistory h2:first-child {margin-top: -4px;}
+
   #resume {
     width: 1024px;
     margin: 0 auto;
@@ -57,6 +55,23 @@ img {
     color: white;
     padding: 10px;
     /*border-radius: 5px;*/
+  }
+
+  .descriptor {
+    font-family: museo, serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.5em;
+    margin: 10px 0 0;
+    margin-left: 10px;
+  }
+  .descriptor + p {
+    font-family: museo, serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 0.9em;
+    line-height: 1.4;
+    margin: 10px;
   }
 
   #visual {
@@ -139,7 +154,7 @@ img {
     bottom: -64px;
     right: -100px;
   }
-  
+
   #intelligent {
     top: 30px;
     width: 265px;
