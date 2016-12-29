@@ -6,8 +6,7 @@ h2 {font-family: museo, serif; font-style: normal; font-weight: 500;}
 h3 {font-family: museo-sans, sans-serif; font-style: normal; font-weight: 700;}
 p {font-family: museo-sans, sans-serif; font-style: normal; font-weight: 300;}
 a {font-family: museo-sans, sans-serif; font-style: normal; font-weight: 500; text-decoration: none; color: #575757;}
-a:hover {color: #808080;}
-a:active {background-color: #d3d3d3}
+a:hover {color: #C6C6C6;}
 
 nav ul,
 footer ul {
@@ -36,8 +35,8 @@ footer img {
   padding: 0 10px;
   transition: .33s ease all;
 }
-nav li:hover, footer img:hover {transform: scale(1.1) rotate(1deg);}
-footer {margin-top: 25px;}
+footer img:hover {transform: scale(1.1) rotate(1deg);}
+footer {margin-top: 50px;}
 
 img {
   max-width: 100%;
@@ -54,15 +53,15 @@ img {
 
 #qualities {display: inline;}
 #qualities h2:first-child {margin-top: 0px;}
-.descriptor, .descriptor + p {margin-left: 25px; margin-right: 25px;}
+.descriptor, .descriptor + p {margin-left: 30px; margin-right: 30px;}
 
 .section h2 {
   font-size: 3em;
   color: white;
   background-color: black;
-  padding: 25px;
+  padding: 30px;
 }
-.section p, .section h3 {margin-left: 25px; margin-right: 25px;}
+.section p, .section h3 {margin-left: 30px; margin-right: 30px;}
 
 @media screen and (min-width: 1024px) {
   #qualities {display: none;}
