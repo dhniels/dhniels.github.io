@@ -19,27 +19,33 @@ footer ul {
   justify-content: center;
 }
 
-nav ul li a {
+nav li a {
   font-family: museo, serif;
   font-style: normal;
   font-weight: 500;
   color: #575757;
+  display: flex;
+  align-items: center;
 }
-nav ul img,
-footer ul img {
+nav li {transition: .33s ease all;}
+
+nav img,
+footer img {
   width: 30px;
   height: 30px;
   padding: 0 10px;
+  transition: .33s ease all;
 }
+nav li:hover, footer img:hover {transform: scale(1.1) rotate(1deg);}
+footer {margin-top: 25px;}
 
 img {
   max-width: 100%;
+  display: block;
 }
 
-footer {margin-top: 25px;}
-footer ul li {margin-bottom: 5px; font-family: museo-sans, sans-serif; font-style: normal; font-weight: 300; font-style: italic; color: #808080;}
-
 #title {
+  margin-top: 10px;
   text-align: center;
   font-size: 5em;
   margin-bottom: 10px;
@@ -47,7 +53,7 @@ footer ul li {margin-bottom: 5px; font-family: museo-sans, sans-serif; font-styl
 }
 
 #qualities {display: inline;}
-#qualities h2:first-child {margin-top: -4px;}
+#qualities h2:first-child {margin-top: 0px;}
 .descriptor, .descriptor + p {margin-left: 25px; margin-right: 25px;}
 
 .section h2 {
@@ -60,13 +66,23 @@ footer ul li {margin-bottom: 5px; font-family: museo-sans, sans-serif; font-styl
 
 @media screen and (min-width: 1024px) {
   #qualities {display: none;}
-  #workhistory h2:first-child {margin-top: -4px;}
+  #workhistory h2:first-child {margin-top: 0px;}
 
   #resume {
     width: 1024px;
     margin: 0 auto;
     position: relative;
+    height: 750px;
+    overflow: hidden;
   }
+
+  #history {
+    display: flex;
+    flex-wrap: wrap;
+    width: 960px;
+    margin: 0 auto;
+  }
+  #education, #references {width: 480px;}
 
   .box {
     position: absolute;
@@ -88,7 +104,7 @@ footer ul li {margin-bottom: 5px; font-family: museo-sans, sans-serif; font-styl
     font-weight: 300;
     font-size: 0.9em;
     line-height: 1.4;
-    margin: 10px;
+    margin: 0 10px 10px 10px;
   }
 
   #visual {
@@ -98,13 +114,13 @@ footer ul li {margin-bottom: 5px; font-family: museo-sans, sans-serif; font-styl
   }
   #visual:after {/* black line */
     content: '';
-    width: 120px;
+    width: 140px;
     height: 2px;
     position: absolute;
     left: 100%;
     bottom: 20px;
     background: black;
-    transform: rotate(40deg);
+    transform: rotate(45deg);
     transform-origin: 0 0;
   }
   #visual:before {/* black circle */
@@ -114,7 +130,7 @@ footer ul li {margin-bottom: 5px; font-family: museo-sans, sans-serif; font-styl
     height: 11px;
     border-radius: 50%;
     background: black;
-    bottom: -64px;
+    bottom: -79px;
     right: -100px;
   }
 
@@ -131,7 +147,7 @@ footer ul li {margin-bottom: 5px; font-family: museo-sans, sans-serif; font-styl
     left: 100%;
     bottom: 60px;
     background: black;
-    transform: rotate(10deg);
+    transform: rotate(19deg);
     transform-origin: 0 0;
   }
   #receptive:before {/* black circle */
@@ -141,7 +157,7 @@ footer ul li {margin-bottom: 5px; font-family: museo-sans, sans-serif; font-styl
     height: 11px;
     border-radius: 50%;
     background: black;
-    bottom: 39px;
+    bottom: 25px;
     right: -95px;
   }
 
@@ -152,13 +168,13 @@ footer ul li {margin-bottom: 5px; font-family: museo-sans, sans-serif; font-styl
   }
   #professional:after {/* white line */
     content: '';
-    width: 120px;
+    width: 140px;
     height: 2px;
     position: absolute;
     left: 101%;
     bottom: 20px;
     background: white;
-    transform: rotate(40deg);
+    transform: rotate(49deg);
     transform-origin: 0 0;
   }
   #professional:before {/* white circle */
@@ -168,7 +184,7 @@ footer ul li {margin-bottom: 5px; font-family: museo-sans, sans-serif; font-styl
     height: 11px;
     border-radius: 50%;
     background: white;
-    bottom: -64px;
+    bottom: -91px;
     right: -100px;
   }
 
@@ -212,7 +228,7 @@ footer ul li {margin-bottom: 5px; font-family: museo-sans, sans-serif; font-styl
     left: 1%;
     bottom: 50px;
     background: black;
-    transform: rotate(-207deg);
+    transform: rotate(-209deg);
     transform-origin: 0 0;
   }
   #communicative:before {/* black circle */
@@ -222,7 +238,7 @@ footer ul li {margin-bottom: 5px; font-family: museo-sans, sans-serif; font-styl
     height: 11px;
     border-radius: 50%;
     background: black;
-    bottom: -48px;
+    bottom: -57px;
     right: 466px;
   }
 
