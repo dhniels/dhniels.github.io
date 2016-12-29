@@ -3,18 +3,25 @@ html, body {margin: 0; padding: 0;}
 
 h1 {font-family: museo, serif; font-style: normal; font-weight: 700;}
 h2 {font-family: museo, serif; font-style: normal; font-weight: 500;}
-h3 {font-family: museo-sans, sans-serif; font-style: normal; font-weight: 500;}
+h3 {font-family: museo-sans, sans-serif; font-style: normal; font-weight: 700;}
 p {font-family: museo-sans, sans-serif; font-style: normal; font-weight: 300;}
 a {font-family: museo-sans, sans-serif; font-style: normal; font-weight: 500; text-decoration: none;}
 
-nav ul {padding: 0; margin: 0; text-align: center;}
-nav ul li {list-style: none; display: inline;}
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 nav ul li a {
   font-family: museo, serif;
   font-style: normal;
   font-weight: 500;
   color: #575757;
-  vertical-align: 7px;}
+}
 nav ul img {width: 30px; height: 30px; padding: 0 10px;}
 
 img {
@@ -30,6 +37,7 @@ img {
 
 #qualities {display: inline;}
 #qualities h2:first-child {margin-top: -4px;}
+.descriptor, .descriptor + p {margin-left: 25px; margin-right: 25px;}
 
 .section h2 {
   font-size: 3em;
@@ -37,7 +45,7 @@ img {
   background-color: black;
   padding: 25px;
 }
-
+.section p, .section h3 {margin-left: 25px; margin-right: 25px;}
 
 @media screen and (min-width: 1024px) {
   #qualities {display: none;}
@@ -54,7 +62,6 @@ img {
     background: black;
     color: white;
     padding: 10px;
-    /*border-radius: 5px;*/
   }
 
   .descriptor {
@@ -62,8 +69,7 @@ img {
     font-style: normal;
     font-weight: 500;
     font-size: 1.5em;
-    margin: 10px 0 0;
-    margin-left: 10px;
+    margin: 10px 0 0 10px;
   }
   .descriptor + p {
     font-family: museo, serif;
