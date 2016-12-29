@@ -5,9 +5,12 @@ h1 {font-family: museo, serif; font-style: normal; font-weight: 700;}
 h2 {font-family: museo, serif; font-style: normal; font-weight: 500;}
 h3 {font-family: museo-sans, sans-serif; font-style: normal; font-weight: 700;}
 p {font-family: museo-sans, sans-serif; font-style: normal; font-weight: 300;}
-a {font-family: museo-sans, sans-serif; font-style: normal; font-weight: 500; text-decoration: none;}
+a {font-family: museo-sans, sans-serif; font-style: normal; font-weight: 500; text-decoration: none; color: #575757;}
+a:hover {color: #808080;}
+a:active {background-color: #d3d3d3}
 
-nav ul {
+nav ul,
+footer ul {
   list-style: none;
   padding: 0;
   margin: 0;
@@ -22,11 +25,19 @@ nav ul li a {
   font-weight: 500;
   color: #575757;
 }
-nav ul img {width: 30px; height: 30px; padding: 0 10px;}
+nav ul img,
+footer ul img {
+  width: 30px;
+  height: 30px;
+  padding: 0 10px;
+}
 
 img {
   max-width: 100%;
 }
+
+footer {margin-top: 25px;}
+footer ul li {margin-bottom: 5px; font-family: museo-sans, sans-serif; font-style: normal; font-weight: 300; font-style: italic; color: #808080;}
 
 #title {
   text-align: center;
