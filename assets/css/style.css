@@ -36,7 +36,7 @@ footer img {
   transition: .33s ease all;
 }
 footer img:hover {transform: scale(1.1) rotate(1deg);}
-footer {margin-top: 50px;}
+footer {margin: 50px 0 40px 0;}
 
 img {
   max-width: 100%;
@@ -134,7 +134,7 @@ img {
   }
 
   #receptive {
-    top: 190px;
+    top: 180px;
     width: 250px;
     left: 15px;
   }
