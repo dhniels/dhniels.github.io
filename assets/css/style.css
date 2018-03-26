@@ -43,6 +43,7 @@ nav li a {
 
 nav li {
 	margin-right: 20px;
+	padding: 5px 0;
 	-webkit-transition: .33s ease all;
 	transition: .33s ease all;
 }
@@ -61,6 +62,7 @@ nav img {padding-right: 5px;}
 
 footer img {padding: 0 10px;}
 
+nav a:hover img,
 footer img:hover {
 	-webkit-transform: scale(1.1) rotate(1deg);
 	transform: scale(1.1) rotate(1deg);
