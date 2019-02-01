@@ -102,6 +102,7 @@ img {
 	#qualities {display: none;}
 
 	#workhistory h2:first-child {margin-top: 0px;}
+	#workhistory h3 + p {font-style: italic;}
 
 	#resume {
 		width: 1024px;
